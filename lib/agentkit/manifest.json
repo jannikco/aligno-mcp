@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "product": "pipmcp",
+  "credential": "PIPMCP_API_KEY",
+  "skills": [
+    {
+      "name": "pipmcp-aligno",
+      "description": "Connect AI agents to Aligno using one PipMCP API key and actual hosted tool discovery."
+    }
+  ],
+  "files": {
+    "skills/pipmcp-aligno/SKILL.md": "6e704bb85ff8bd850bfab540b3ff9443f9c39fc4f4fad6eaa84426adbcb0aa5a"
+  }
+}
