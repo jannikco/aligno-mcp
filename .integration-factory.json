@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "status": "ready",
+  "verification": "mock-only",
+  "releaseEligible": true,
+  "maintainer": "jannikco",
+  "license": "MIT",
+  "sourceRevision": "9f5b761ac27a7e8d1b71788a789c6c1d7c604cb2b629530d36b19a40ae62ab0a",
+  "evidence": [
+    "Source-backed provider setup metadata",
+    "Offline configuration and MCP protocol tests"
+  ],
+  "provenance": [
+    "https://aligno.io/api/v1/openapi.json"
+  ],
+  "id": "aligno-mcp",
+  "kind": "mcp-setup",
+  "product": "pipmcp",
+  "title": "Aligno MCP setup and connection checker",
+  "description": "Generate Aligno MCP client configuration, inspect available tools and validate hosted endpoint access through PipMCP.",
+  "operationIds": [],
+  "appSlug": "aligno",
+  "appName": "Aligno",
+  "providerDocs": "https://aligno.io/api/v1/openapi.json",
+  "providerWebsite": "https://aligno.io/",
+  "authentication": {
+    "type": "bearer",
+    "requiredCredentialFields": [
+      "token"
+    ],
+    "requiredHeaderNames": [],
+    "helpUrl": "https://aligno.io/docs/zapier",
+    "tenantRequired": false,
+    "accountParameterNames": []
+  },
+  "attributionSlug": "github-aligno-mcp",
+  "factory": "leadadapter-pipmcp",
+  "generatorVersion": 1
+}
